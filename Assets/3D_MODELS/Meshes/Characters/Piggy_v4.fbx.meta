@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: a21937d1d7b76bd4b8089d5f73e1b381
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: joint_Chest
+    100002: joint_Eye
+    100004: joint_Head
+    100006: joint_Headtop
+    100008: joint_Hip
+    100010: joint_L_Arm
+    100012: joint_L_Ear
+    100014: joint_L_EarTop
+    100016: joint_L_Elbow
+    100018: joint_L_Feet
+    100020: joint_L_Hand
+    100022: joint_L_Hip
+    100024: joint_L_Leg
+    100026: joint_L_Shoulder
+    100028: joint_NoseTop
+    100030: joint_R_Arm
+    100032: joint_R_Ear
+    100034: joint_R_EarTop
+    100036: joint_R_Elbow
+    100038: joint_R_Feet
+    100040: joint_R_Hand
+    100042: joint_R_Hip
+    100044: joint_R_Reg
+    100046: joint_R_Shoulder
+    100048: joint_Tails
+    100050: joint_Torso
+    100052: Piggy_body
+    100054: Piggy_eyeL
+    100056: Piggy_eyeR
+    100058: //RootNode
+    100060: Root
+    400000: joint_Chest
+    400002: joint_Eye
+    400004: joint_Head
+    400006: joint_Headtop
+    400008: joint_Hip
+    400010: joint_L_Arm
+    400012: joint_L_Ear
+    400014: joint_L_EarTop
+    400016: joint_L_Elbow
+    400018: joint_L_Feet
+    400020: joint_L_Hand
+    400022: joint_L_Hip
+    400024: joint_L_Leg
+    400026: joint_L_Shoulder
+    400028: joint_NoseTop
+    400030: joint_R_Arm
+    400032: joint_R_Ear
+    400034: joint_R_EarTop
+    400036: joint_R_Elbow
+    400038: joint_R_Feet
+    400040: joint_R_Hand
+    400042: joint_R_Hip
+    400044: joint_R_Reg
+    400046: joint_R_Shoulder
+    400048: joint_Tails
+    400050: joint_Torso
+    400052: Piggy_body
+    400054: Piggy_eyeL
+    400056: Piggy_eyeR
+    400058: //RootNode
+    400060: Root
+    4300000: Piggy_eyeL
+    4300002: Piggy_eyeR
+    4300004: Piggy_body
+    7400000: P_idle
+    7400002: P_walking
+    7400004: P_lookAround
+    7400006: P_jump
+    7400008: P_hurt
+    7400010: P_idleDance
+    7400012: P_dance
+    7400014: P_spawn
+    7400016: P_dead
+    9500000: //RootNode
+    13700000: Piggy_body
+    13700002: Piggy_eyeL
+    13700004: Piggy_eyeR
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: P_idle
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 259
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Piggy_body
+        weight: 1
+      - path: Piggy_eyeL
+        weight: 1
+      - path: Piggy_eyeR
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg/joint_L_Feet
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg/joint_R_Feet
+        weight: 1
+      - path: Root/joint_Torso
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Eye
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear/joint_L_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear/joint_R_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_NoseTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow/joint_L_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow/joint_R_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Tails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: P_walking
+      takeName: Take 001
+      firstFrame: 395
+      lastFrame: 454
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Piggy_body
+        weight: 1
+      - path: Piggy_eyeL
+        weight: 1
+      - path: Piggy_eyeR
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg/joint_L_Feet
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg/joint_R_Feet
+        weight: 1
+      - path: Root/joint_Torso
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Eye
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear/joint_L_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear/joint_R_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_NoseTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow/joint_L_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow/joint_R_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Tails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: P_lookAround
+      takeName: Take 001
+      firstFrame: 500
+      lastFrame: 651
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Piggy_body
+        weight: 1
+      - path: Piggy_eyeL
+        weight: 1
+      - path: Piggy_eyeR
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg/joint_L_Feet
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg/joint_R_Feet
+        weight: 1
+      - path: Root/joint_Torso
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Eye
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear/joint_L_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear/joint_R_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_NoseTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow/joint_L_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow/joint_R_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Tails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: P_jump
+      takeName: Take 001
+      firstFrame: 700
+      lastFrame: 820
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Piggy_body
+        weight: 1
+      - path: Piggy_eyeL
+        weight: 1
+      - path: Piggy_eyeR
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg/joint_L_Feet
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg/joint_R_Feet
+        weight: 1
+      - path: Root/joint_Torso
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Eye
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear/joint_L_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear/joint_R_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_NoseTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow/joint_L_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow/joint_R_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Tails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: P_hurt
+      takeName: Take 001
+      firstFrame: 850
+      lastFrame: 940
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Piggy_body
+        weight: 1
+      - path: Piggy_eyeL
+        weight: 1
+      - path: Piggy_eyeR
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg/joint_L_Feet
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg/joint_R_Feet
+        weight: 1
+      - path: Root/joint_Torso
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Eye
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear/joint_L_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear/joint_R_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_NoseTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow/joint_L_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow/joint_R_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Tails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: P_idleDance
+      takeName: Take 001
+      firstFrame: 1040
+      lastFrame: 1119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Piggy_body
+        weight: 1
+      - path: Piggy_eyeL
+        weight: 1
+      - path: Piggy_eyeR
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg/joint_L_Feet
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg/joint_R_Feet
+        weight: 1
+      - path: Root/joint_Torso
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Eye
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear/joint_L_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear/joint_R_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_NoseTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow/joint_L_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow/joint_R_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Tails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: P_dance
+      takeName: Take 001
+      firstFrame: 1200
+      lastFrame: 1270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Piggy_body
+        weight: 1
+      - path: Piggy_eyeL
+        weight: 1
+      - path: Piggy_eyeR
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg/joint_L_Feet
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg/joint_R_Feet
+        weight: 1
+      - path: Root/joint_Torso
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Eye
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear/joint_L_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear/joint_R_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_NoseTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow/joint_L_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow/joint_R_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Tails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: P_spawn
+      takeName: Take 001
+      firstFrame: 1300
+      lastFrame: 1389
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Piggy_body
+        weight: 1
+      - path: Piggy_eyeL
+        weight: 1
+      - path: Piggy_eyeR
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg/joint_L_Feet
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg/joint_R_Feet
+        weight: 1
+      - path: Root/joint_Torso
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Eye
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear/joint_L_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear/joint_R_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_NoseTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow/joint_L_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow/joint_R_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Tails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: P_dead
+      takeName: Take 001
+      firstFrame: 1400
+      lastFrame: 1485
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Piggy_body
+        weight: 1
+      - path: Piggy_eyeL
+        weight: 1
+      - path: Piggy_eyeR
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg
+        weight: 1
+      - path: Root/joint_Hip/joint_L_Hip/joint_L_Leg/joint_L_Feet
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg
+        weight: 1
+      - path: Root/joint_Hip/joint_R_Hip/joint_R_Reg/joint_R_Feet
+        weight: 1
+      - path: Root/joint_Torso
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Eye
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_L_Ear/joint_L_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_Headtop/joint_R_Ear/joint_R_EarTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_Head/joint_NoseTop
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_L_Shoulder/joint_L_Arm/joint_L_Elbow/joint_L_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow
+        weight: 1
+      - path: Root/joint_Torso/joint_Chest/joint_R_Shoulder/joint_R_Arm/joint_R_Elbow/joint_R_Hand
+        weight: 1
+      - path: Root/joint_Torso/joint_Tails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

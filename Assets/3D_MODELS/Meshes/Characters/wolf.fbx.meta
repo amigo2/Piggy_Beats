@@ -1,0 +1,698 @@
+fileFormatVersion: 2
+guid: 32b8f5807727a1a4d833998749e10e9b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Arm_L
+    100002: Arm_R
+    100004: Chest
+    100006: Ear_L
+    100008: Ear_R
+    100010: EarEnd_L
+    100012: EarEnd_R
+    100014: Elbow_L
+    100016: Elbow_R
+    100018: Eye
+    100020: Eye_L
+    100022: Eye_R
+    100024: Foot_L
+    100026: Foot_R
+    100028: Gravity
+    100030: Hand_L
+    100032: Hand_R
+    100034: Head
+    100036: HeadTop
+    100038: Hip
+    100040: Jaw
+    100042: JawEnd
+    100044: Leg_L
+    100046: Leg_R
+    100048: Nose
+    100050: NoseBase
+    100052: Shoulder_L
+    100054: Shoulder_R
+    100056: Skin
+    100058: TailA
+    100060: TailB
+    100062: TailC
+    100064: TailD
+    100066: Teeth
+    100068: Teeth2
+    100070: Torso
+    100072: Waist_L
+    100074: Waist_R
+    100076: //RootNode
+    100078: Wolf_Nose
+    100080: Wolf_Skin
+    400000: Arm_L
+    400002: Arm_R
+    400004: Chest
+    400006: Ear_L
+    400008: Ear_R
+    400010: EarEnd_L
+    400012: EarEnd_R
+    400014: Elbow_L
+    400016: Elbow_R
+    400018: Eye
+    400020: Eye_L
+    400022: Eye_R
+    400024: Foot_L
+    400026: Foot_R
+    400028: Gravity
+    400030: Hand_L
+    400032: Hand_R
+    400034: Head
+    400036: HeadTop
+    400038: Hip
+    400040: Jaw
+    400042: JawEnd
+    400044: Leg_L
+    400046: Leg_R
+    400048: Nose
+    400050: NoseBase
+    400052: Shoulder_L
+    400054: Shoulder_R
+    400056: Skin
+    400058: TailA
+    400060: TailB
+    400062: TailC
+    400064: TailD
+    400066: Teeth
+    400068: Teeth2
+    400070: Torso
+    400072: Waist_L
+    400074: Waist_R
+    400076: //RootNode
+    400078: Wolf_Nose
+    400080: Wolf_Skin
+    4300000: Eye_R
+    4300002: Eye_L
+    4300004: Wolf_Skin
+    4300006: Teeth
+    4300008: Teeth2
+    4300010: Wolf_Nose
+    7400000: Wolf_Idle
+    7400002: Wolf_Suspect
+    7400004: Wolf_Walking
+    7400006: Wolf_Showup
+    7400008: Wolf_Disappear
+    9500000: //RootNode
+    13700000: Eye_L
+    13700002: Eye_R
+    13700004: Teeth
+    13700006: Teeth2
+    13700008: Wolf_Nose
+    13700010: Wolf_Skin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wolf_Idle
+      takeName: Take 001
+      firstFrame: 19
+      lastFrame: 218
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gravity
+        weight: 1
+      - path: Gravity/Hip
+        weight: 1
+      - path: Gravity/Hip/Waist_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L/Foot_L
+        weight: 1
+      - path: Gravity/Hip/Waist_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R/Foot_R
+        weight: 1
+      - path: Gravity/Torso
+        weight: 1
+      - path: Gravity/Torso/Chest
+        weight: 1
+      - path: Gravity/Torso/Chest/Head
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Eye
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L/EarEnd_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R/EarEnd_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw/JawEnd
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase/Nose
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Gravity/Torso/TailA
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC/TailD
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/Eye_L
+        weight: 1
+      - path: Skin/Eye_R
+        weight: 1
+      - path: Skin/Teeth
+        weight: 1
+      - path: Skin/Teeth2
+        weight: 1
+      - path: Skin/Wolf_Nose
+        weight: 1
+      - path: Skin/Wolf_Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Wolf_Suspect
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 580
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gravity
+        weight: 1
+      - path: Gravity/Hip
+        weight: 1
+      - path: Gravity/Hip/Waist_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L/Foot_L
+        weight: 1
+      - path: Gravity/Hip/Waist_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R/Foot_R
+        weight: 1
+      - path: Gravity/Torso
+        weight: 1
+      - path: Gravity/Torso/Chest
+        weight: 1
+      - path: Gravity/Torso/Chest/Head
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Eye
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L/EarEnd_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R/EarEnd_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw/JawEnd
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase/Nose
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Gravity/Torso/TailA
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC/TailD
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/Eye_L
+        weight: 1
+      - path: Skin/Eye_R
+        weight: 1
+      - path: Skin/Teeth
+        weight: 1
+      - path: Skin/Teeth2
+        weight: 1
+      - path: Skin/Wolf_Nose
+        weight: 1
+      - path: Skin/Wolf_Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Wolf_Walking
+      takeName: Take 001
+      firstFrame: 310
+      lastFrame: 369
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gravity
+        weight: 1
+      - path: Gravity/Hip
+        weight: 1
+      - path: Gravity/Hip/Waist_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L/Foot_L
+        weight: 1
+      - path: Gravity/Hip/Waist_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R/Foot_R
+        weight: 1
+      - path: Gravity/Torso
+        weight: 1
+      - path: Gravity/Torso/Chest
+        weight: 1
+      - path: Gravity/Torso/Chest/Head
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Eye
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L/EarEnd_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R/EarEnd_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw/JawEnd
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase/Nose
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Gravity/Torso/TailA
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC/TailD
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/Eye_L
+        weight: 1
+      - path: Skin/Eye_R
+        weight: 1
+      - path: Skin/Teeth
+        weight: 1
+      - path: Skin/Teeth2
+        weight: 1
+      - path: Skin/Wolf_Nose
+        weight: 1
+      - path: Skin/Wolf_Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Wolf_Showup
+      takeName: Take 001
+      firstFrame: 650
+      lastFrame: 704
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gravity
+        weight: 1
+      - path: Gravity/Hip
+        weight: 1
+      - path: Gravity/Hip/Waist_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L/Foot_L
+        weight: 1
+      - path: Gravity/Hip/Waist_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R/Foot_R
+        weight: 1
+      - path: Gravity/Torso
+        weight: 1
+      - path: Gravity/Torso/Chest
+        weight: 1
+      - path: Gravity/Torso/Chest/Head
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Eye
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L/EarEnd_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R/EarEnd_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw/JawEnd
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase/Nose
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Gravity/Torso/TailA
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC/TailD
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/Eye_L
+        weight: 1
+      - path: Skin/Eye_R
+        weight: 1
+      - path: Skin/Teeth
+        weight: 1
+      - path: Skin/Teeth2
+        weight: 1
+      - path: Skin/Wolf_Nose
+        weight: 1
+      - path: Skin/Wolf_Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Wolf_Disappear
+      takeName: Take 001
+      firstFrame: 600
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gravity
+        weight: 1
+      - path: Gravity/Hip
+        weight: 1
+      - path: Gravity/Hip/Waist_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L
+        weight: 1
+      - path: Gravity/Hip/Waist_L/Leg_L/Foot_L
+        weight: 1
+      - path: Gravity/Hip/Waist_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R
+        weight: 1
+      - path: Gravity/Hip/Waist_R/Leg_R/Foot_R
+        weight: 1
+      - path: Gravity/Torso
+        weight: 1
+      - path: Gravity/Torso/Chest
+        weight: 1
+      - path: Gravity/Torso/Chest/Head
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Eye
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_L/EarEnd_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/HeadTop/Ear_R/EarEnd_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/Jaw/JawEnd
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase
+        weight: 1
+      - path: Gravity/Torso/Chest/Head/NoseBase/Nose
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_L/Arm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R
+        weight: 1
+      - path: Gravity/Torso/Chest/Shoulder_R/Arm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Gravity/Torso/TailA
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC
+        weight: 1
+      - path: Gravity/Torso/TailA/TailB/TailC/TailD
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/Eye_L
+        weight: 1
+      - path: Skin/Eye_R
+        weight: 1
+      - path: Skin/Teeth
+        weight: 1
+      - path: Skin/Teeth2
+        weight: 1
+      - path: Skin/Wolf_Nose
+        weight: 1
+      - path: Skin/Wolf_Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

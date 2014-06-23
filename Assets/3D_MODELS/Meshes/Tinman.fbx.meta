@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 55e4b74b3cc46e045a07d3c482a26132
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Joint_Arm_L
+    100002: Joint_Arm_R
+    100004: joint_Elbow_L
+    100006: joint_Elbow_R
+    100008: joint_Feet_L
+    100010: joint_Feet_R
+    100012: joint_Hand_L
+    100014: joint_Hand_R
+    100016: joint_Head
+    100018: joint_Hip
+    100020: joint_Leg_L
+    100022: joint_Neck
+    100024: joint_Reg_R
+    100026: joint_ROOT
+    100028: joint_Torso
+    100030: joint_Waist
+    100032: //RootNode
+    100034: Tinman_Body
+    100036: Tinman_Head
+    100038: Tinman_Tie
+    100040: Tinman_TieTop
+    400000: Joint_Arm_L
+    400002: Joint_Arm_R
+    400004: joint_Elbow_L
+    400006: joint_Elbow_R
+    400008: joint_Feet_L
+    400010: joint_Feet_R
+    400012: joint_Hand_L
+    400014: joint_Hand_R
+    400016: joint_Head
+    400018: joint_Hip
+    400020: joint_Leg_L
+    400022: joint_Neck
+    400024: joint_Reg_R
+    400026: joint_ROOT
+    400028: joint_Torso
+    400030: joint_Waist
+    400032: //RootNode
+    400034: Tinman_Body
+    400036: Tinman_Head
+    400038: Tinman_Tie
+    400040: Tinman_TieTop
+    2300000: Tinman_Tie
+    2300002: Tinman_TieTop
+    3300000: Tinman_Tie
+    3300002: Tinman_TieTop
+    4300000: Tinman_Body
+    4300002: Tinman_Tie
+    4300004: Tinman_TieTop
+    4300006: Tinman_Head
+    7400000: TM_Idle
+    7400002: TM_Walk
+    7400004: TM_Jump
+    7400006: TM_beaten
+    7400008: TM_Casual
+    9500000: //RootNode
+    13700000: Tinman_Body
+    13700002: Tinman_Head
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TM_Idle
+      takeName: tinhead_XP
+      firstFrame: 11
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_ROOT
+        weight: 1
+      - path: joint_ROOT/joint_Hip
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L/joint_Feet_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R/joint_Feet_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L/joint_Hand_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R/joint_Hand_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck/joint_Head
+        weight: 1
+      - path: Tinman_Body
+        weight: 1
+      - path: Tinman_Head
+        weight: 1
+      - path: Tinman_Tie
+        weight: 1
+      - path: Tinman_TieTop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TM_Walk
+      takeName: tinhead_XP
+      firstFrame: 90
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_ROOT
+        weight: 1
+      - path: joint_ROOT/joint_Hip
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L/joint_Feet_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R/joint_Feet_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L/joint_Hand_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R/joint_Hand_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck/joint_Head
+        weight: 1
+      - path: Tinman_Body
+        weight: 1
+      - path: Tinman_Head
+        weight: 1
+      - path: Tinman_Tie
+        weight: 1
+      - path: Tinman_TieTop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TM_Jump
+      takeName: tinhead_XP
+      firstFrame: 220
+      lastFrame: 323
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_ROOT
+        weight: 1
+      - path: joint_ROOT/joint_Hip
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L/joint_Feet_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R/joint_Feet_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L/joint_Hand_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R/joint_Hand_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck/joint_Head
+        weight: 1
+      - path: Tinman_Body
+        weight: 1
+      - path: Tinman_Head
+        weight: 1
+      - path: Tinman_Tie
+        weight: 1
+      - path: Tinman_TieTop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TM_beaten
+      takeName: tinhead_XP
+      firstFrame: 351
+      lastFrame: 392
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_ROOT
+        weight: 1
+      - path: joint_ROOT/joint_Hip
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L/joint_Feet_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R/joint_Feet_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L/joint_Hand_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R/joint_Hand_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck/joint_Head
+        weight: 1
+      - path: Tinman_Body
+        weight: 1
+      - path: Tinman_Head
+        weight: 1
+      - path: Tinman_Tie
+        weight: 1
+      - path: Tinman_TieTop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TM_Casual
+      takeName: tinhead_XP
+      firstFrame: 400
+      lastFrame: 520
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_ROOT
+        weight: 1
+      - path: joint_ROOT/joint_Hip
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Leg_L/joint_Feet_L
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R
+        weight: 1
+      - path: joint_ROOT/joint_Hip/joint_Reg_R/joint_Feet_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_L/joint_Elbow_L/joint_Hand_L
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/Joint_Arm_R/joint_Elbow_R/joint_Hand_R
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck
+        weight: 1
+      - path: joint_ROOT/joint_Waist/joint_Torso/joint_Neck/joint_Head
+        weight: 1
+      - path: Tinman_Body
+        weight: 1
+      - path: Tinman_Head
+        weight: 1
+      - path: Tinman_Tie
+        weight: 1
+      - path: Tinman_TieTop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

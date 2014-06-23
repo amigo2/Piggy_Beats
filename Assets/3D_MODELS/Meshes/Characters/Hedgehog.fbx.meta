@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 5a6ec46ac22cf71469a6fac744cdc806
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: eye_L
+    100002: eye_R
+    100004: //RootNode
+    100006: Hedgehog
+    100008: joint_back
+    100010: joint_eye
+    100012: joint_face
+    100014: joint_gravity
+    100016: joint_nose
+    100018: joint_noseEnd
+    100020: joint_tail
+    400000: eye_L
+    400002: eye_R
+    400004: //RootNode
+    400006: Hedgehog
+    400008: joint_back
+    400010: joint_eye
+    400012: joint_face
+    400014: joint_gravity
+    400016: joint_nose
+    400018: joint_noseEnd
+    400020: joint_tail
+    4300000: Hedgehog
+    4300002: eye_L
+    4300004: eye_R
+    7400000: Hedgehog_idle
+    7400002: Hedgehog_walk
+    7400004: Hedgehog_casual
+    7400006: Hedgehog_spawn
+    7400008: Hedgehog_dead
+    9500000: //RootNode
+    13700000: eye_L
+    13700002: eye_R
+    13700004: Hedgehog
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hedgehog_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: Hedgehog
+        weight: 1
+      - path: joint_gravity
+        weight: 1
+      - path: joint_gravity/joint_back
+        weight: 1
+      - path: joint_gravity/joint_back/joint_tail
+        weight: 1
+      - path: joint_gravity/joint_face
+        weight: 1
+      - path: joint_gravity/joint_face/joint_eye
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose/joint_noseEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hedgehog_walk
+      takeName: Take 001
+      firstFrame: 220
+      lastFrame: 279
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: Hedgehog
+        weight: 1
+      - path: joint_gravity
+        weight: 1
+      - path: joint_gravity/joint_back
+        weight: 1
+      - path: joint_gravity/joint_back/joint_tail
+        weight: 1
+      - path: joint_gravity/joint_face
+        weight: 1
+      - path: joint_gravity/joint_face/joint_eye
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose/joint_noseEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hedgehog_casual
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 184
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: Hedgehog
+        weight: 1
+      - path: joint_gravity
+        weight: 1
+      - path: joint_gravity/joint_back
+        weight: 1
+      - path: joint_gravity/joint_back/joint_tail
+        weight: 1
+      - path: joint_gravity/joint_face
+        weight: 1
+      - path: joint_gravity/joint_face/joint_eye
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose/joint_noseEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hedgehog_spawn
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 354
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: Hedgehog
+        weight: 1
+      - path: joint_gravity
+        weight: 1
+      - path: joint_gravity/joint_back
+        weight: 1
+      - path: joint_gravity/joint_back/joint_tail
+        weight: 1
+      - path: joint_gravity/joint_face
+        weight: 1
+      - path: joint_gravity/joint_face/joint_eye
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose/joint_noseEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hedgehog_dead
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 439
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: Hedgehog
+        weight: 1
+      - path: joint_gravity
+        weight: 1
+      - path: joint_gravity/joint_back
+        weight: 1
+      - path: joint_gravity/joint_back/joint_tail
+        weight: 1
+      - path: joint_gravity/joint_face
+        weight: 1
+      - path: joint_gravity/joint_face/joint_eye
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose
+        weight: 1
+      - path: joint_gravity/joint_face/joint_nose/joint_noseEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

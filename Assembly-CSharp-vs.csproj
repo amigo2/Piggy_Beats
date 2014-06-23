@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{FEF0EF41-0B64-D173-21C6-3804CA24F92E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\3D_MODELS\Utility\SimpleParticlePack\Scripts\ParticleTester.cs" />
+     <Compile Include="Assets\SCRIPTS\CAMERA\SmoothCameraMovement.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMIES\ChaserScript.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMIES\EnemyList.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMIES\RunnerScript.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMIES\SpawnEnemies.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMIES\ZoomInOut.cs" />
+     <Compile Include="Assets\SCRIPTS\GRID\Coin_Manager.cs" />
+     <Compile Include="Assets\SCRIPTS\GRID\Combinations.cs" />
+     <Compile Include="Assets\SCRIPTS\GRID\Grid_Script.cs" />
+     <Compile Include="Assets\SCRIPTS\GRID\SoundsAndParticle.cs" />
+     <Compile Include="Assets\SCRIPTS\GRID\SpawnTiles.cs" />
+     <Compile Include="Assets\SCRIPTS\GRID\TileNotesScript.cs" />
+     <Compile Include="Assets\SCRIPTS\MAIN\Game_Manager.cs" />
+     <Compile Include="Assets\SCRIPTS\MAIN\Score.cs" />
+     <Compile Include="Assets\SCRIPTS\MAIN\Sequences.cs" />
+     <Compile Include="Assets\SCRIPTS\MOVEMENTS\ClickAndMove.cs" />
+     <Compile Include="Assets\SCRIPTS\MOVEMENTS\MovementControlSwitcher.cs" />
+     <Compile Include="Assets\SCRIPTS\MOVEMENTS\Movement_Accelerometer.cs" />
+     <Compile Include="Assets\SCRIPTS\MOVEMENTS\SuperJoystick.cs" />
+     <Compile Include="Assets\SCRIPTS\PLAYER\HitByEnemies.cs" />
+     <Compile Include="Assets\SCRIPTS\PLAYER\Objects_Hit_Player.cs" />
+     <Compile Include="Assets\SCRIPTS\PLAYER\PickUpBoosts.cs" />
+     <Compile Include="Assets\SCRIPTS\PLAYER\Player_Script.cs" />
+     <Compile Include="Assets\SCRIPTS\UI\FirstWorldMapUIScript.cs" />
+     <Compile Include="Assets\SCRIPTS\UI\MainMenuUI.cs" />
+     <Compile Include="Assets\SCRIPTS\UI\PositioningJoystick.cs" />
+     <Compile Include="Assets\SCRIPTS\UI\ReallocatePositionAndSizeGUI.cs" />
+     <Compile Include="Assets\SCRIPTS\UI\TouchToStart.cs" />
+     <Compile Include="Assets\SCRIPTS\UI\UI_Script.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\AutoDestruction.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\Coin_Behaviour.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\DestroyAfterFinished.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\DestroyInmediate.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\EnableDisableCollider.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\MatrixGUI.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\PinchToZoom.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\Shit.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\SoundScript.cs" />
+     <Compile Include="Assets\SCRIPTS\UTILITY\TextCoord.cs" />
+     <None Include="Assets\3D_MODELS\Utility\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Utility\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline_2.shader" />
+     <None Include="Assets\3D_MODELS\Utility\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\3D_MODELS\Utility\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\3D_MODELS\Utility\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
